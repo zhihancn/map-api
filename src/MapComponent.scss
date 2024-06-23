@@ -1,0 +1,28 @@
+  .tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip-button {
+    position: absolute;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    border: none;
+    outline: none;
+  }
+  
+  .tooltip {
+    position: absolute;
+    top: -110%; /* 调整到按钮的上方 */
+    left: 110%; /* 调整到按钮的右侧 */
+    transform: translateX(-50%);
+    background-color: #be4343;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+    z-index: 1;
+    margin-top: 5px;
+  }
+  

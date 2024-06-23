@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "myplugin/gaode-map-api",
+    "title": "apiMap",
+    "editorScript": "file:./build/index.js",
+    "script": "file:./build/script.js",
+    "viewScript": [ "file:./build/FrontMap.js", "example-shared-view-script" ],
+    "style": [ "file:./build/style.css", "example-shared-style" ],
+    "editorStyle": "file:./build/index.css",
+    "viewStyle": [ "file:./build/frontend.css", "example-view-style" ]
+}
