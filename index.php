@@ -2,7 +2,7 @@
 
 /*
 
-    Plugin Name: 高德地图插件
+    Plugin Name: gaodeMapAPI
     Description: 调用高德地图API，实现wp选点
     Version: 1.0
     Author: 沉疴
